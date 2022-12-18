@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;
+	400&family=Kenia&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Kenia&family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+	<title>Course</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html">
+				<img src="images/logo.webp">
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+			</a>
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+     <h1>Our Courses</h1>
+	</section>
+
+
+	<!-- -------------------------COURSES------------------------- -->
+
+	<section class="course">
+		<h2>Courses We Offer</h2>
+		<p>At the School of Guru Dakshina, excellence is what we strive to achieve. Our infrastructure,<br>
+		faculty, vision, ideals, and teaching methods make us a premier university.</p>
+
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>"Collage is a term derived from art and refers to a picture made up of pieces of found objects: scraps of newspaper, bits of old cane backing, a gum wrapper, lengths of string, tin cans. A collage can be made entirely of found objects, or it can be a combination of the objects and the artists's own drawing."</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Graduation</h3>
+				<p>"Collage is a term derived from art and refers to a picture made up of pieces of found objects: scraps of newspaper, bits of old cane backing, a gum wrapper, lengths of string, tin cans. A collage can be made entirely of found objects, or it can be a combination of the objects and the artists's own drawing."</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Post Graduation</h3>
+				<p>"Collage is a term derived from art and refers to a picture made up of pieces of found objects: scraps of newspaper, bits of old cane backing, a gum wrapper, lengths of string, tin cans. A collage can be made entirely of found objects, or it can be a combination of the objects and the artists's own drawing."</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ---------------Facilities--------------------- -->
+
+
+	<section class="facilities">
+		<h1>Facilities</h1>
+		<p>Our students are conquering world the<br> 'Students-First' philosophy is a big reason.</p>
+
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/library2.webp">
+				<h3>World class library</h3>
+				<p>Our students are conquering world the <br>'Students-First' philosophy is a big reason.</p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="images/basketball.webp">
+				<h3>Large Playgrounds</h3>
+				<p>Our students are conquering world the <br>'Students-First' philosophy is a big reason.</p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="images/cafeteria.webp">
+				<h3>Healthy Food</h3>
+				<p>Our students are conquering world the <br>'Students-First' philosophy is a big reason.</p>
+			</div>
+		</div>
+	</section>
+
+  <!-- ----------------FOOTER-------------------- -->
+
+  <section class="footer">
+  	<h4>About Us</h4>
+  	<p>"Collage is a term derived from art and refers to a picture made up of pieces of found<br> objects: scraps of newspaper, bits of old cane backing, a gum wrapper, lengths of string, tin cans."</p>
+  	<div class="icon">
+  		<i class="fa-brands fa-facebook"></i>
+  		<i class="fa-brands fa-instagram"></i>
+  		<i class="fa-brands fa-twitter"></i>
+  		<i class="fa-brands fa-whatsapp"></i>
+  		<i class="fa-brands fa-reddit"></i>
+  	</div>
+  	<p>Made With<i class="fa fa-heart"></i> By Harsh Kushwaha</p>
+  </section>
+
+
+
+
+</body>
+<script type="text/javascript">
+	
+	var navLinks= document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right='0';
+	}
+
+	function hideMenu(){
+		navLinks.style.right='-200px';
+	}
+</script>
+</html>
